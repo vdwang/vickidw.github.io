@@ -1,0 +1,279 @@
+body {
+  margin: 0px;
+  background-color: #f2eee0;
+  color: #5e0a0a;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Sacramento', cursive;
+}
+
+a:link {
+  color: #8AB471;
+  text-decoration: none;
+  font-weight: bolder;
+}
+a:visited {
+  color: #8AB471;
+  text-decoration: none;
+}
+a:hover {
+  color: #c8e6f5;
+  text-decoration: underline;
+}
+a:active {
+  color: #c8e6f5;
+  background-color: #993333;
+  text-decoration: none;
+}
+
+.intro-container {
+  background-color: #f2eee0;
+  color: #5e0a0a;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.left-flower {
+  height: 10rem;
+  position: relative;
+  right: 25px;
+  top: 25px;
+}
+
+.hello {
+  font-size: 4rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0px !important;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.adj {
+  font-size: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navi-bar {
+  background-color: #f2eee0;
+  color: #5e0a0a;
+  height: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  border: 5px #5e0a0a;
+  padding-bottom: 1rem;
+  text-align: right;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.book-img1, .index-img1 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f2eee0;
+  display: flex;
+}
+
+.index-img1 {
+  background-image:url('../images/Hand1.JPG');
+  background-size:contain;
+  opacity:0.80;
+  width: 75%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #8AB471;
+  margin: 0 auto;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bolder;
+}
+
+.book-img1 {
+  background-image:url('../images/Dallas.jpg');
+  background-size: contain;
+  opacity:0.60;
+  width: 75%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color:#c8e6f5;
+  margin: 0 auto;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bolder;
+}
+
+.div-title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+}
+
+.text-bg {
+  position: relative;
+  align-content: center;
+  padding-left: 1rem;
+}
+
+.text-bg:after {
+  content:'';
+  position:absolute;
+  background-color: #5e0a0a;
+  left:0;
+  width:100%; height:100%;
+  padding-right: 1rem;
+  border-radius: 4px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity:.6;
+  z-index:-1;
+}
+
+.img-lfloat {
+  width: 30%;
+  float: left;
+  margin-right: 3rem;
+  border-radius: 50%;
+}
+
+.img-rfloat {
+  width: 30%;
+  float: right;
+  margin-left: 3rem;
+}
+
+.div-float {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+  text-align: justify;
+  clear: both;
+}
+
+.round-button {
+  background-color: #5e0a0a;
+  border: none;
+  color: #8AB471;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 6rem;
+}
+
+.social-media {
+  width: 4rem;
+  position: fixed;
+  z-index: 1; /* Stay on top */
+  top: 3rem;
+  right: 0;
+  background-color: #8AB471;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  opacity:0.60;
+  border-radius: 8px;
+}
+
+.fa {
+  padding: 0.75rem;
+  width: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #5e0a0a;
+  color: #8AB471;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: #c8e6f5;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #956C6C;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .navi-bar {
+    width: 100%;
+  }
+
+  .index-img1 {
+    width: 100%;
+  }
+
+  .book-img1 {
+    width: 100%;
+  }
+
+  .div-title{
+    width:100%;
+    font-size: 1.25em;
+  }
+
+  .social-media {
+    width: 2rem;
+    position: fixed;
+    top: 2rem;
+    right: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .fa {
+    padding: 0.5rem;
+    width: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .img-lfloat {
+    width: 45%;
+    float: left;
+    margin-bottom: 0.5rem;
+  }
+
+  .img-rfloat {
+    width: 45%;
+    float: right;
+    margin-bottom: 0.5rem;
+  }
+
+  .div-float-sm {
+    clear: both;
+  }
+}
