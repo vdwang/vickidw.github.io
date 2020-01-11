@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: #f2eee0;
+  background-color: #282C34;
   color: #5e0a0a;
   font-family: sans-serif;
 }
@@ -35,7 +35,7 @@ a:active {
 }
 
 .intro-container {
-  background-color: #f2eee0;
+  background-color: #282C34;
   color: #5e0a0a;
   text-align: center;
   position: relative;
@@ -66,7 +66,7 @@ a:active {
 }
 
 .navi-bar {
-  background-color: #f2eee0;
+  background-color: #282C34;
   color: #5e0a0a;
   height: 2rem;
   width: 75%;
@@ -77,34 +77,21 @@ a:active {
   font-family: 'Varela Round', sans-serif;
 }
 
-.book-img1, .index-img1 {
+.index-img1 {
   position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #f2eee0;
+  background-color: #282C34;
   display: flex;
 }
 
 .index-img1 {
-  background-image:url('../images/Hand1.JPG');
-  background-size:contain;
-  opacity:0.80;
-  width: 75%;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  color: #8AB471;
-  margin: 0 auto;
-  font-family: 'Varela Round', sans-serif;
-  font-weight: bolder;
-}
-
-.book-img1 {
-  background-image:url('../images/Dallas.jpg');
+  background-image:url('images/Dallas.jpg');
   background-size: contain;
-  opacity:0.60;
-  width: 75%;
+  opacity:0.30;
+  width: 100%;
   padding-top: 120px;
   padding-bottom: 120px;
   color:#c8e6f5;
@@ -121,6 +108,7 @@ a:active {
   text-align: center;
   font-size: 2rem;
   letter-spacing: 0.25rem;
+  font-
 }
 
 .text-bg {
