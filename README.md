@@ -1,4 +1,4 @@
-## (please excuse the mess)
+### (please excuse the mess)
 # About the project
 Hello. If you're here to find more information about my website, you are at the right place!
 
